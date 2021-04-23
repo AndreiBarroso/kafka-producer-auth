@@ -11,6 +11,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class EnrollmentMessage implements Serializable {
+
     private OperationType operation;
     private String cpf;
     private List<ProfileMessage> perfis;

@@ -10,6 +10,7 @@ import java.io.Serializable;
 @AllArgsConstructor
 @NoArgsConstructor
 public class ProfileMessage implements Serializable {
+
     private String name;
     private String clientId;
 }

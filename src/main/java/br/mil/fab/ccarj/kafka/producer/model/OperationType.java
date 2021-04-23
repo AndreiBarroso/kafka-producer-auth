@@ -1,6 +1,7 @@
 package br.mil.fab.ccarj.kafka.producer.model;
 
 public enum OperationType {
+
     INSERT("INSERT"),
     DELETE("DELETE");
 
